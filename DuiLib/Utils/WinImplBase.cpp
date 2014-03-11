@@ -216,7 +216,7 @@ LRESULT WindowImplBase::OnCreate(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& 
 	m_PaintManager.AddPreMessageFilter(this);
 
 	CDialogBuilder builder;
-	// hanhaidi 20140117 修改 首先获取资源路径，获取不到再拼接
+	// xdrt81y 20140117 修改 首先获取资源路径，获取不到再拼接
 	//CDuiString strResourcePath=m_PaintManager.GetInstancePath();
 	//strResourcePath+=GetSkinFolder().GetData();
 	CDuiString strResourcePath=m_PaintManager.GetResourcePath();

@@ -284,7 +284,7 @@ public:
     void PaintText(HDC hDC);
     void PaintStatusImage(HDC hDC);
 
-	//hanhaidi 20141225
+	//xdrt81y 20141225
 	void SetPos(RECT rc);
 	//void DoPostPaint(HDC hDC, const RECT& rcPaint);
 
