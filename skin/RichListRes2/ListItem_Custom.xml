@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<ListContainerElement  height="58">
+		
+			<Option name="rowOptionBackup" float="true" pos="0,0,62,58" width="62" normalimage="file='checkbox.png' dest='23,22,37,36' source='0,0,14,14'" hotimage="file='checkbox.png' dest='23,22,37,36' source='14,0,28,14'" pushedimage="file='checkbox.png' dest='23,22,37,36' source='28,0,42,14'" disabledimage="file='checkbox.png' dest='23,22,37,36' source='42,0,56,14'" hottextcolor="#FF007AFF" selectedforeimage="file='check.png' dest='23,22,37,36'"/>
+			<HorizontalLayout float="true" pos="62,0,287,58" width="225">
+				<Container width="58">
+					<Label name="icon" float="true" pos="11,10,0,0" width="36" height="38" bkimage="list_icon_default.png"/>
+					<Control name="iconCover" float="true" pos="6,6,0,0" width="46" height="46" bkimage="file='list_icon_bg.png' dest='0,0,46,46' source='0,0,56,56'" />
+				</Container>
+				<Label name="title" textpadding="5,0,0,0" align="Left" textcolor="#FF333333" font="0"/>
+				<Label name="appbid" width="0" visible="false"/>
+				<Label name="filepath" width="0" visible="false"/>
+			</HorizontalLayout>
+			<Label name="appversion" float="true" pos="287,0,359,58" align="center" textcolor="#FF333333"  width="72"/>
+			<Label name="backuptime" float="true" pos="359,0,535,58" align="center" textcolor="#FF333333"  width="176"/>
+			<Label name="filesize" float="true" pos="535,0,607,58" align="center" textcolor="#FF333333"  width="72"/>
+		
+	</ListContainerElement>
+</Window>
